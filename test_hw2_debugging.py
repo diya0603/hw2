@@ -1,4 +1,4 @@
-import hw2_debugging
+import hw2_test.hw2_debugging as hw2_debugging
 import pytest
 
 def test_merge_sort_random():
