@@ -1,4 +1,4 @@
-import hw2_test.hw2_debugging as hw2_debugging
+import hw2_debugging
 
 def test_merge_sort_random():
     array = [3,8,5,1,9,3]
