@@ -2,7 +2,6 @@
 This module implements the merge sort algorithm.
 
 """
-import pdb
 import rand
 
 
