@@ -13,11 +13,10 @@ def random_array(arr):
     Returns:
         list: The filled array with random integers.
     """
-    shuffled_num = None
     for i,_ in enumerate(arr):
         try:
             arr[i] = random.randint(1, 20)
         except Exception as e:
-            print("Error")
+            print(e)
             arr[i] = 0
     return arr
